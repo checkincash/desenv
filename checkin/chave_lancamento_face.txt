@@ -1,0 +1,1 @@
+keytool -exportcert -alias checkincash -keystore secretária\desenvolvimento\android\checkin key\ | openssl sha1 -binary | openssl base64
