@@ -3,7 +3,7 @@
  
 
 
-$dados_checkin = "SELECT pk_sorteio_cabe_pincash, ativo, datainicio, datafim, texto_campanha, foto_campanha FROM ap_pincash_sorteio where ativo = 1";
+$dados_checkin = "SELECT pk_sorteio_cabe_pincash, ativo, datainicio, datafim, texto_campanha, foto_campanha FROM ap_pincash_sorteio where ativo = 1 ";
 
 
  $exec_row = $conn->query($dados_checkin );
